@@ -60,3 +60,23 @@ fastlane/report.xml
 fastlane/Preview.html
 fastlane/screenshots/**/*.png
 fastlane/test_output
+
+# macOS
+.DS_Store
+
+# Xcode build/cache
+DerivedData/
+build/
+*.xcuserstate
+**/xcuserdata/
+
+# SwiftPM (opsiyonel)
+.swiftpm/
+.build/
+
+# (opsiyonel) Xcode workspace'ı takip etmek istemezsen aç:
+# *.xcworkspace
+
+# (opsiyonel) SwiftPM kilidi:
+# Package.resolved
+
